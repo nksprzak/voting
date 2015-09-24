@@ -1,9 +1,9 @@
 FILES :=                              \
     .travis.yml                       \
-    Voting-tests/nrk423-RunVoting.in   \
-    Voting-tests/nrk423-RunVoting.out  \
-    Voting-tests/nrk423-TestVoting.c++ \
-    Voting-tests/nrk423-TestVoting.out \
+    voting-tests/nrk423-RunVoting.in   \
+    voting-tests/nrk423-RunVoting.out  \
+    voting-tests/nrk423-TestVoting.c++ \
+    voting-tests/nrk423-TestVoting.out \
     Voting.c++                       \
     Voting.h                         \
     Voting.log                       \
@@ -70,7 +70,7 @@ status:
 
 test: RunVoting.tmp TestVoting.tmp
 
-Voting-tests:
+voting-tests:
 	git clone https://github.com/cs371p-fall-2015/voting-tests.git
 
 html: Doxyfile Voting.h Voting.c++ RunVoting.c++ TestVoting.c++
