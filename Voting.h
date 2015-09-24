@@ -27,10 +27,14 @@ class Canidate
 		bool is_loser = false;
 };
 
-
-
+/**
+ *@param r an istream 
+ *@param w an ostream
+ */
 void voting_solve(istream& r, ostream& w);
 
 vector<Canidate> voting_read (istream& r, int& total_votes);
+
+vector<int> process_votes(vector<Canidate>& c, int total_votes);
 
 #endif
