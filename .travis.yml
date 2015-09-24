@@ -49,4 +49,6 @@ script:
     - ls -al
     - make test
     - ls -al
+    - make scrub
+    - ls -al
     - make check
