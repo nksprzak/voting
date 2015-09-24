@@ -13,6 +13,7 @@ class Vote
 {
 	public:
 		vector<int> prefs;
+		int current_first;
 		int index = 0;
 };
 
@@ -29,5 +30,7 @@ class Canidate
 
 
 void voting_solve(istream& r, ostream& w);
+
+vector<Canidate> voting_read (istream& r, int& total_votes);
 
 #endif
