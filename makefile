@@ -93,7 +93,6 @@ TestVoting: Voting.h Voting.c++ TestVoting.c++
 	$(CXX) $(CXXFLAGS) $(GCOVFLAGS) Voting.c++ TestVoting.c++ -o TestVoting $(LDFLAGS)
 
 TestVoting.tmp: TestVoting
-	$(VALGRIND) ./TestVoting
+	$(VALGRIND) ./TestVoting 
 	$(GCOV) -b Voting.c++     | grep -A 5 "File 'Voting.c++'"     >> TestVoting.tmp
 	$(GCOV) -b TestVoting.c++ | grep -A 5 "File 'TestVoting.c++'" >> TestVoting.tmp
-	diff TestVoting.tmp TestVoting.out
