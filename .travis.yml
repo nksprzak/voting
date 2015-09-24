@@ -47,8 +47,7 @@ script:
     - ls -al
     - make Voting.log
     - ls -al
-    - make test
-    - ls -al
     - make scrub
+    - make test
     - ls -al
     - make check
