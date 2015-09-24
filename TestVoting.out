@@ -1,0 +1,12 @@
+File 'Voting.c++'
+Lines executed:100.00% of 77
+Branches executed:100.00% of 136
+Taken at least once:67.65% of 136
+Calls executed:88.57% of 105
+Creating 'Voting.c++.gcov'
+File 'TestVoting.c++'
+Lines executed:100.00% of 56
+Branches executed:67.30% of 318
+Taken at least once:33.65% of 318
+Calls executed:55.44% of 377
+Creating 'TestVoting.c++.gcov'

@@ -122,7 +122,6 @@ vector<int> process_votes(vector<Canidate>& c, int total_votes)
 void voting_solve(istream& r, ostream& w)
 {
 	string s;
-	int num_of_cands;
 	vector<Canidate> canidates;
 	int length;
 	int num_votes = 0;
