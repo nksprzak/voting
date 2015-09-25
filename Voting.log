@@ -1,0 +1,77 @@
+commit f648886115a8b2b0956d779c585b034ac06260a0
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 18:51:12 2015 -0500
+
+    adding gcov and valgrind output
+
+commit 0b683aff5a64c8e3fe004093df4ee542180724d0
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 18:15:16 2015 -0500
+
+    fixing makefile for travis
+
+commit 8ca07d7173f6a8d1410e1cebae6e990d930c2c2b
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 18:12:46 2015 -0500
+
+    travis fix
+
+commit 77c77b955c656c5145bd01240114f4d8d3f4771d
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 18:09:01 2015 -0500
+
+    made UVa file closes #9, closes #8
+
+commit bd19cc152148b5ebd242a82d64aef621bc04e8e5
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 18:01:39 2015 -0500
+
+    fixing travis build
+
+commit b4455383dc11f7d4e82d902f739de38766394550
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 17:57:01 2015 -0500
+
+    trying to get a correct travis build
+
+commit facbd562504ac844eaf739d8fea6c325582dee9b
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 17:52:51 2015 -0500
+
+    Adding unit and acceptance tests closes #2, closes #4
+
+commit b16d9ae884e769401e07c54eae449f214e02d918
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 16:43:17 2015 -0500
+
+    Adding the election evaluation closes #3, closes #5, closes #11
+
+commit 58cef9c1dba88e61baebb379de11c2f5cb43c3aa
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 16:23:45 2015 -0500
+
+    Added reding input function closes #1
+
+commit 89983dd351788e80f97c4fc3abada032fd82988c
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 16:11:27 2015 -0500
+
+    Added Vote and Canidate Classes close #6, close #7
+
+commit afe9ae64f35f25eca5a52618828a54649393ba9a
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 15:14:33 2015 -0500
+
+    correcting RunVoting.in, adding tests
+
+commit eb86d55dddc637d8c6adc095b2f9ef5815b35907
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 15:07:12 2015 -0500
+
+    added voting.c++ base
+
+commit 96d8d2279cbc0b10ea9603712d6bdd8653c0e63c
+Author: nksprzak <nksprzak@gmail.com>
+Date:   Thu Sep 24 12:46:20 2015 -0500
+
+    Initial commit, adding base code

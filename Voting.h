@@ -33,7 +33,22 @@ class Canidate
  */
 void voting_solve(istream& r, ostream& w);
 
+/**
+ *@param r an istream 
+ *@param total an int
+ *@return canidate vector filled in with votes
+ * Reads in selected input to process for one election.
+ * Runs in for loop from first line length to get every election.
+ */
+
 vector<Canidate> voting_read (istream& r, int& total_votes);
+
+/**
+ *@param c an canidate vector 
+ *@param total an int
+ * Determines the winner by figuring if anyone has more than half votes
+ * or if there is a perfect tie. If not reassigns losers votes. 
+ */
 
 vector<int> process_votes(vector<Canidate>& c, int total_votes);
 
